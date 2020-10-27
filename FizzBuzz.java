@@ -11,6 +11,8 @@ public class FizzBuzz {
                 System.out.println("FizzBuzz");
             else if(Integer.toString(num).contains("3"))
                 System.out.println("Fizz");
+            else if(Integer.toString(num).contains("5"))
+                System.out.println("Buzz");
             else
                 System.out.println(""+num);
         }
